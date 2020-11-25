@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         WindowManager windowManager = getWindowManager();
         View view = getLayoutInflater().inflate(R.layout.activity_sub, null);
         WindowManager.LayoutParams params = new WindowManager.LayoutParams(99);
+        params.setTitle("blue window");
         windowManager.addView(view, params);
     }
 }
