@@ -17,12 +17,24 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.MyApplication" >
-        <activity android:name="com.example.myapplication.MainActivity" >
+        <activity
+            android:name="com.example.myapplication.MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myapplication.SecondActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.HAHA" />
+
+                <category android:name="android.intent.category.HOHO" />
             </intent-filter>
         </activity>
     </application>

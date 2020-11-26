@@ -11,7 +11,7 @@
 9-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:5:5-29:19
 12        android:allowBackup="true"
 12-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -26,22 +26,43 @@
 18-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:9:9-54
 19        android:supportsRtl="true"
 19-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:10:9-35
-20        android:theme="@style/Theme.MyApplication" >
-20-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:11:9-51
-21        <activity android:name="com.example.myapplication.MainActivity" >
-21-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:12:9-18:20
-21-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:12:19-47
-22            <intent-filter>
-22-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:13:13-17:29
-23                <action android:name="android.intent.action.MAIN" />
-23-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:14:17-69
-23-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:14:25-66
-24
-25                <category android:name="android.intent.category.LAUNCHER" />
-25-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:16:17-77
-25-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:16:27-74
-26            </intent-filter>
-27        </activity>
-28    </application>
-29
-30</manifest>
+20        android:testOnly="true"
+21        android:theme="@style/Theme.MyApplication" >
+21-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:11:9-51
+22        <activity
+22-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:12:9-19:20
+23            android:name="com.example.myapplication.MainActivity"
+23-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:12:19-72
+24            android:exported="true" >
+24-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:13:13-36
+25            <intent-filter>
+25-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:14:13-18:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:15:17-69
+26-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:15:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:17:17-77
+28-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:17:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:20:9-27:20
+32            android:name="com.example.myapplication.SecondActivity"
+32-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:21:13-68
+33            android:exported="true" >
+33-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:22:13-36
+34            <intent-filter>
+34-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:23:13-26:29
+35                <action android:name="android.intent.action.HAHA" />
+35-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:24:17-69
+35-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:24:25-66
+36
+37                <category android:name="android.intent.category.HOHO" />
+37-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:25:17-73
+37-->C:\Users\yangn\AndroidStudioProjects\MyApplication2\app\src\main\AndroidManifest.xml:25:27-70
+38            </intent-filter>
+39        </activity>
+40    </application>
+41
+42</manifest>
